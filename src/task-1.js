@@ -1,6 +1,5 @@
-
 export default function sum(...values) {
-    // Change me!
+    const sumValues = values.reduce((a, b) => a + b);
 
-    return 0;
+    return sumValues;
 }
